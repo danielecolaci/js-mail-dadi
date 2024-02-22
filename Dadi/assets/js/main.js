@@ -1,1 +1,5 @@
-console.log('ok');
+let numberHuman = Math.floor(Math.random() * 6) + 1;
+let numberComputer = Math.floor(Math.random() * 6) + 1;
+
+console.log('Il tuo punteggio è ' + numberHuman)
+console.log('Il punteggio del Computer è ' + numberComputer)
